@@ -1,0 +1,299 @@
+*{
+    font-family: sans-serif;
+    margin : 0;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+/* navbar */
+
+#totwel{
+    padding : 100px 0px;
+    padding-left : 550px;
+}
+
+#name{
+    font-size: 50px;
+    margin : 10px 0px;
+}
+
+#welcome{
+    margin : 10px;
+    font-size: 16px;
+    padding-left : 30px;
+}
+
+.gps{
+    padding : 3px 5px;
+    background-color: black;
+    color : white;
+}
+
+.mainimg{
+    max-width: 100%;
+}
+
+.text1{
+    font-size: 36px;
+    margin : 10px 0px;
+    color : white;
+}
+
+.text2{
+    font-size: 64px;
+    color : white;
+}
+
+.text3{
+    margin : 10px 0px;
+    color : white;;
+}
+
+.but{
+    font-size: 15px;
+    padding : 10px;
+    border-radius: 5px;
+}
+
+.but:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.all{
+    position:absolute;
+    padding : 12px 24px;
+    top:700px;
+}
+#main{
+    margin : 30px 0px;
+    display : flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+#largecontainer{
+    margin-left: 20px;
+}
+.container{
+    margin-top : 16px;
+    padding : 12px 24px;
+    background-color: aliceblue;
+}
+
+.heading {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin : 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.baseheading{
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin : 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.date{
+    opacity : 0.60;
+}
+
+.justifycontent{
+    margin : 10px;
+    padding : 8px 16px;
+}
+
+.images{
+    width : 900px;
+    height : 650px;
+}
+
+.paragraphs{
+    font-size: 15px;
+    margin : 15px 0px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    width : 900px;
+}
+
+.like {
+    font-size: 15px;
+    margin-left: 22px;
+}
+
+.like:hover{
+    cursor: pointer;
+    background-color: rgb(205, 202, 202);
+}
+.likebutton{
+    height : 12px;
+    width : 12px;
+    margin-top: 5px;
+}
+
+
+#container1{
+    width : 700px;
+    height : 500px;
+}
+
+
+.mynameimg{
+    width : 450px;
+    height : 300px;
+    filter: grayscale(100%);
+}
+
+.inf{
+    position: absolute;
+    top:1700px;
+    width:418px;
+    background-color: rgb(36, 34, 34);
+    color : white;
+    font-size: 15px;
+    padding : 0px 16px;
+}
+
+.headmyname{
+    padding : 10px;
+}
+
+.mynamematter{
+    margin : 5px 10px;
+}
+
+#smallcontainer{
+    margin-top : 15px;
+    margin-left : 15px;
+}
+
+.pophead{
+    background-color: black;
+    color: white;
+    padding : 20px 16px;
+    font : 20px;
+}
+
+.contbox{
+    width : 450px;
+    background-color: aliceblue;
+    margin-top:60px;
+}
+
+.imgwidth{
+    width : 50px;
+    height : 50px;
+    margin-right : 15px;
+}
+
+.flex{
+    display : flex;
+    padding : 16px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex:hover{
+    background-color: rgb(171, 168, 168);
+}
+
+.p1{
+    font-size: 18px;
+}
+
+.p2{
+    font-size: 15px;
+    opacity : 0.65;
+}
+
+hr{
+    opacity:0.80;
+}
+
+
+.adbox{
+    height : 200px;
+    padding : 16px;
+}
+
+#advertisebox{
+    background-color: rgb(219, 219, 219);
+    height : 100px;
+    text-align: center;
+    padding-top : 90px;
+}
+
+#tagcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.tags{
+    background-color: rgb(219, 219, 219);
+    padding : 10px;
+    margin : 5px;
+}
+
+.tags:hover{
+    background-color: rgb(171, 168, 168);
+}
+
+.inspimg{
+    width : 200px;
+    height : 150px;
+}
+
+#inspbox{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding : 15px;
+    grid-row-gap: 15px;
+}
+
+.sub {
+    padding : 15px;
+}
+
+.email{
+    width : 400px;
+    margin : 10px 0px;
+    padding: 8px;
+}
+
+.bt{
+    width : 400px;
+    text-align: center;
+    padding : 8px 0px;
+    background-color: orange;
+    border: none;
+}
+
+.bt:hover{
+    background-color: rgb(155, 152, 147);
+}
+
+#footer{
+    background-color : gray;
+    color : white;
+    height : 100px;
+    padding : 25px;
+}
+
+.bttop{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding : 15px;
+    height : 20px;
+}
+
+.up{
+    height : 20px;
+    margin-top: 15px;
+}
+
+.powered{
+    margin-top:50px;
+}
+
+.w3{
+    color : white;
+}
